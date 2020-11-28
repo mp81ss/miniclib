@@ -9,3 +9,5 @@ vector is speed oriented, no checks are done and user must check that no NULL
 pointers are passed if not explicitely allowed and indexes are in valid range.
 
 See example.c or directly the headers (fully doxygenated), or the help file.
+
+With both CLang v11 and VS2019 is ~17% faster than utarray, see cv_bench.c
