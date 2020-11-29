@@ -10,4 +10,7 @@ pointers are passed if not explicitely allowed and indexes are in valid range.
 
 See example.c or directly the headers (fully doxygenated), or the help file.
 
-With both CLang v11 and VS2019 is ~17% faster than utarray, see cv_bench.c
+PERFORMANCE:
+Generally about 10-20% faster than utarray (https://troydhanson.github.io/uthash/utarray.html).
+Tested on windows with CLang v11 and VS2019, Linux with gcc v4.8.5
+See file cv_bench.c
