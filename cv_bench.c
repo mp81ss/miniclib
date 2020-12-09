@@ -1,12 +1,12 @@
 /*
 clang -Ofast -ocv.exe -DCVECTOR cv_bench.c
-clang -Ofast -out.exe cv_bench.c
+clang -Ofast -ouv.exe cv_bench.c
 
 gcc -Ofast -ocv -DCVECTOR cv_bench.c
-gcc -Ofast -out cv_bench.c
+gcc -Ofast -ouv cv_bench.c
 
 cl /O2 /Fecv -DCVECTOR cv_bench.c
-cl /O2 /Feut cv_bench.c
+cl /O2 /Feuv cv_bench.c
 
 measure execution times of both exe on your env
 */

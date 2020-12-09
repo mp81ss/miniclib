@@ -6,11 +6,13 @@ to make it fast in traversal and memory efficient. Moreover it is safe: All
 pointers are NULL-checked and all indexes are checked for out-of-bound errors.
 
 vector is speed oriented, no checks are done and user must check that no NULL
-pointers are passed if not explicitely allowed and indexes are in valid range.
+pointers are passed if not explicitly allowed and indexes are in valid range.
 
 See example.c or directly the headers (fully doxygenated), or the help file.
 
 PERFORMANCE:
-Generally about 10-20% faster than utarray (https://troydhanson.github.io/uthash/utarray.html).
+CVector is about 10-20% faster than utarray (https://troydhanson.github.io/uthash).
+CLists are much more faster then utlist in traversal and changes (add/insert/delete).
+
 Tested on windows with CLang v11 and VS2019, Linux with gcc v4.8.5
 See file cv_bench.c
