@@ -1,3 +1,6 @@
+# ARCHIVED - Moved to gitlab
+
+
 CLibrary is just a dummy data-structure library containing vector and list only.
 Both vector and list are 2 single and independent headers.
 
@@ -10,9 +13,6 @@ pointers are passed if not explicitly allowed and indexes are in valid range.
 
 See example.c or directly the headers (fully doxygenated), or the help file.
 
-PERFORMANCE:
-CVector is about 10-20% faster than utarray (https://troydhanson.github.io/uthash).
-CLists are much more faster then utlist in traversal and changes (add/insert/delete).
 
 Tested on windows with CLang v11 and VS2019, Linux with gcc v4.8.5
 See file cv_bench.c
